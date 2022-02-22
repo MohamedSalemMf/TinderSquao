@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500&display=swap');
 
 *{
 	box-sizing: border-box;
@@ -9,9 +9,10 @@ body{
 	background-color: #323031;
 	text-transform:uppercase;
     color: #fff;
-    font-family: 'Orbitron', sans-serif;
-    /* height: 5000000px; */
+    font-family: 'Catamaran', sans-serif;
     overflow-x: hidden;
+    letter-spacing:1px;
+
 }
 @media (max-width: 678px){
     body{
@@ -64,19 +65,21 @@ img {
 a{
     text-decoration: none;
     color: #fff;
-    font-weight: 600;
+    font-weight: 400;
+    font-family: 'Catamaran', sans-serif !important;
+    letter-spacing:2px;
 }
 a:hover{
     text-decoration: none;
     color: #fff;
 }
 button{
-    font-family: 'Orbitron', sans-serif !important;
+    /* font-family: 'Orbitron', sans-serif !important; */
 }
 
 p{
     text-transform:capitalize;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
 }
 .btn-yrne{
     color: rgb(255, 255, 255);
@@ -155,8 +158,10 @@ ul, li {
 /* ========================================================================================================== */
 /* navbar */
 .nav{
-    background-color: rgba(50, 48, 49,.9);
+    background-color: rgba(50, 48, 49,1);
     transition: all 1s;
+}
+.navbar{
     box-shadow: 0 0 5px #ff9c0c;
 
 }
@@ -1777,10 +1782,10 @@ border-radius: 100px 10px ;
     border-radius: 50px 0 150px;
 }
 .box-item-slide h3{
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 .box-item-slide{
-    font-size: .8rem;
+    font-size: 1rem;
 }
 
 .slide-slick:hover .member-caption2{
@@ -2418,11 +2423,11 @@ right: 0;
 
 .box-item-slider h3{
     font-size: .9rem;
-    font-weight: 600;
+    font-weight: 900;
 }
 
 .box-item-slider {
-    font-size: .8rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 

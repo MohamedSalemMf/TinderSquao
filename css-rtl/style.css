@@ -158,8 +158,12 @@ ul, li {
 /* ========================================================================================================== */
 /* navbar */
 .nav{
-    background-color: rgba(50, 48, 49,.9);
+    background-color: rgba(50, 48, 49,1);
     transition: all 1s;
+}
+.navbar{
+    box-shadow: 0 0 5px #ff9c0c;
+
 }
 .nav a{
     color: #fff !important;
